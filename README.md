@@ -1,5 +1,5 @@
 # wireless-amiga-joysticks
-Code and design document repository for my wireless Amiga (Atari-type) retro and DIY joysticks.
+Code and design document repository for my wireless Amiga ( or any Atari-type) retro and DIY joysticks.
 
 See the wiki page for detailed documentation.
 
