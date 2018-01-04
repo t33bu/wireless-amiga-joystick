@@ -39,7 +39,6 @@ boolean invert=false;
 boolean flash=false;
 volatile boolean autoshoot=false;
 
-uint8_t joystick_state=0;
 uint16_t autofire=0, old_autofire=0;
 uint32_t autoperiod=0, shoot_count=0;
 char shoot_str[16];
@@ -86,7 +85,6 @@ void loop() {
   }
 
   // Set normal state
-  joystick_state=0;
   display.clearDisplay();
   display.setCursor(STR_POS,0);
   sprintf(shoot_str,"%06d",shoot_count);
