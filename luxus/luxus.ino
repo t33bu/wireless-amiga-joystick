@@ -107,7 +107,7 @@ void loop() {
   }
   
   // Shooting?
-  if (autoshoot == true || digitalRead(BUTTON_IN) == 1) {
+  if (autoshoot == true || digitalRead(BUTTON_IN) == LOW) {
     digitalWrite(BUTTON_OUT,LOW);   
     autoshoot=false;
     flash=true;        
